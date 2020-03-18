@@ -9,9 +9,8 @@ export default function Menu() {
                 <Link to='./' className="menuHeader"><li>DA</li></Link>
                 <Link to='./Contact' className="menuItem"><li>Contact</li></Link>
                 <li className="menuItem">Projects</li>
-                <li className="menuItem">How we work</li>
+                <li className="menuItem">How I work</li>
                 <li className="menuItem">About</li>   
-                <li className="menuItem">Home</li>
           </ul>
         </div>
     )

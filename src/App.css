@@ -2,11 +2,18 @@
 
 
 .footer {
-  color: black;
+  color: silver;
+  background-color: #282c34;
+  width: 100%;
   font-size: 14px;
   text-align: center;
   position: fixed;
-  bottom: 5px;
+  margin-bottom: 0;
+  height: 30px;
+  bottom: 0;
+  z-index: 3;
+  opacity: 95%;
+  
   
   
 }

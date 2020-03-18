@@ -35,20 +35,30 @@
 }
 
 .aboutMe {
-    color: silver;
-    font: 18px;
-    margin: 45% 15% 15% 15%;
+    color: black;
+    font: 30px;
+    line-height: 25px;
+    margin: 40% 25% 15% 25%;
+    padding: 3%;
     position: absolute;
+    width: 50%;
+    text-align: center;
 }
 
 @media screen and  (max-width: 600px) {
     .danPhoto {
         height: 30%;
         width: auto;
+        margin-top: 150px;
     }
 
     .homeHeader {
         font-size: 18px;
-        padding: 220px 50% 10% 3%;
+        padding: 180px 50% 10% 3%;        
+    }
+
+    .aboutMe {
+        margin: 90% 20% 10% 0;
+        text-align: left;
     }
 }
