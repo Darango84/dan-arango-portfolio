@@ -1,0 +1,54 @@
+.contactContainer {
+    margin: 0;
+    padding: 8% 1% 20% 2%;
+    color: silver;
+    background: #72767e;
+    width: 100%;
+}
+
+.contactItems {
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+span {
+    color: silver;
+}
+
+.contactHeader {
+    color: black;
+}
+
+.contactContainer a {
+    text-decoration: none;
+    color: silver;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainerItem { 
+    flex: 1;
+    margin-bottom: 15px;
+    
+}
+
+.formLabel {
+    color: black;
+    padding-right: 0;
+    flex: 1;
+}
+
+.formInput {
+    width:250px;
+    margin-left: 5%;
+    
+}
+
+
+
+.contactAlternative {
+    margin-top: 50px;
+    color: black;
+}
+

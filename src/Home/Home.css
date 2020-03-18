@@ -1,0 +1,54 @@
+
+.homeContainer {
+    background-color: #282c34;
+    margin: 0;
+}
+
+
+.homeHeader {
+    background-color: #282c34;
+    color: white;
+    opacity: 25%;  
+    margin: 3% 10% 0 0;
+    padding: 250px 50% 10% 3%;
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    text-align: left; 
+    line-height: 40px;   
+}
+
+.dRed {
+    color: red;
+}
+
+.danPhoto{
+    height: 40%;
+    width: auto;
+    margin: 200px 3% 0 10%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    border-radius: 200px;
+    box-shadow: 5px 5px 5px silver; 
+}
+
+.aboutMe {
+    color: silver;
+    font: 18px;
+    margin: 45% 15% 15% 15%;
+    position: absolute;
+}
+
+@media screen and  (max-width: 600px) {
+    .danPhoto {
+        height: 30%;
+        width: auto;
+    }
+
+    .homeHeader {
+        font-size: 18px;
+        padding: 220px 50% 10% 3%;
+    }
+}

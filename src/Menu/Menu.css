@@ -1,0 +1,77 @@
+.fixedMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background: #222831;
+    z-index: 4;
+    
+}
+
+
+.menu {
+    color: silver;
+    list-style-type: none;
+    margin-bottom: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+  }
+
+  .menuHeader {
+    color: rgb(202, 4, 4);
+    font-size: 45px;
+    margin-left: 2%;
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    left: 10px;
+  }
+
+  .menuHeader:hover {
+    color: red;
+  }
+  
+  .menuItem {
+    font-size: 16px;
+    justify-content: flex-end;
+    margin: 1%;
+    text-decoration: none;
+    
+  }
+
+  .menuItem:hover {
+    font-size: 18px;
+  }
+
+  .menuItem:visited {
+    color: silver;
+}
+
+  @media screen and (max-width: 600px){
+      .menuHeader {
+          font-size: 35px;
+      }
+      .menuItem {
+        font-size: 16px;
+      }
+  }
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .menuHeader  {
+    animation: menuHeader-spin infinite 20s linear;
+  }
+}
+
+@keyframes menuHeader-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(1000deg);
+  }
+}
