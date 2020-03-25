@@ -2,27 +2,24 @@
     position: fixed;
     top: 0;
     width: 100%;
-    height: 10%;
-    background: #222831;
+    height: 8%;
+    background: #1b262c;
     z-index: 4;
     opacity: 95%;
-    
 }
 
 
 .menu {
     color: silver;
     list-style-type: none;
-    margin-bottom: 30%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-
   }
 
   .menuHeader {
     color: rgb(202, 4, 4);
-    font-size: 45px;
+    font-size: 50px;
     margin-left: 2%;
     text-decoration: none;
     position: absolute;
@@ -37,13 +34,13 @@
   .menuItem {
     font-size: 16px;
     justify-content: flex-end;
-    margin: 1%;
+    margin: 0 1%;
     text-decoration: none;
     
   }
 
   .menuItem:hover {
-    font-size: 18px;
+    color: white;
   }
 
   .menuItem:visited {
@@ -58,8 +55,6 @@
         font-size: 16px;
       }
   }
-
-
 
 
 @media (prefers-reduced-motion: no-preference) {

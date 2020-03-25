@@ -4,6 +4,10 @@ import Home from './Home/Home';
 // import About from './About/About';
 import Contact from './Contact/Contact';
 import './App.css';
+
+import  { FaLinkedin } from 'react-icons/fa';
+import  { MdMail} from 'react-icons/md';
+
 import {
   BrowserRouter,
   Route,
@@ -24,7 +28,14 @@ function App() {
             <Route path="/Contact" exact component={Contact} />
             
 
-          <p className="footer">An app by Dan Arango ™</p>
+          <div className="footer">
+
+            <div className="footerIcons">
+              <a href="mailto:daniel.arango@gmx.com" subject="Hi Dan"><MdMail /></a>
+              <a href="https://www.linkedin.com/in/daniel-arango-68503427/" target="blank"><FaLinkedin /></a>
+            </div>           
+            <p className="footerTitle">An app by Dan Arango ™</p>
+          </div>
         </div>
 
       </BrowserRouter>

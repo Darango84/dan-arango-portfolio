@@ -1,54 +1,76 @@
 .contactContainer {
     margin: 0;
     padding: 8% 1% 20% 2%;
-    color: silver;
-    background: #72767e;
+    background: #eef2f5;
     width: 100%;
 }
 
-.contactItems {
-    color: black;
-    font-weight: bold;
-    padding-top: 10px;
-}
-
-span {
-    color: silver;
-}
-
 .contactHeader {
-    color: black;
+    color: red;
+    margin-bottom: 50px;
+}
+
+.contactItems {
+    color: grey;
+    font-size: 18px;
+    font-weight: bold; 
 }
 
 .contactContainer a {
     text-decoration: none;
-    color: silver;
+    font-weight: bold;
+    color: grey;
     display: flex;
     flex-direction: column;
 }
 
+.contactAlternative {
+    margin: 60px 0 40px 0;
+    color: grey;
+}
+
 .formContainerItem { 
-    flex: 1;
-    margin-bottom: 15px;
-    
+    display: flex;
+    text-align: left;
+    margin-bottom: 15px;  
 }
 
 .formLabel {
-    color: black;
-    padding-right: 0;
-    flex: 1;
+    color: grey;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.formInput {
+    color: grey;
+    text-align: left;
 }
 
+
 .formInput {
-    width:250px;
-    margin-left: 5%;
+    width:300px;
+    height: 20px;
+    margin-left: 2%;   
+}
+
+.message {
+    width:300px;
+    height: 100px;
+    margin-left: 2%;   
+}
+.submitButton {
+    background-color: rgb(131, 194, 131);
+    font-weight: bold;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 30px;
+    margin-right: 20px ;
+    width: 70px;
+    height: 25px;
+    margin-left: 380px;
     
 }
 
 
 
-.contactAlternative {
-    margin-top: 50px;
-    color: black;
-}
 

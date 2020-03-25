@@ -1,64 +1,122 @@
 
 .homeContainer {
-    background-color: #282c34;
-    margin: 0;
+    background-color: white;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
 }
 
 
 .homeHeader {
-    background-color: #282c34;
-    color: white;
-    opacity: 25%;  
-    margin: 3% 10% 0 0;
-    padding: 250px 50% 10% 3%;
-    position: absolute;
-    z-index: 2;
+    color: silver;
+    text-align: left;  
+    line-height: 50px;  
+    margin: 3%;
     width: 50%;
-    height: 100%;
-    text-align: left; 
-    line-height: 40px;   
-}
-
-.dRed {
-    color: red;
-}
-
-.danPhoto{
-    height: 40%;
-    width: auto;
-    margin: 200px 3% 0 10%;
     position: absolute;
-    right: 0;
-    z-index: -1;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+.redName {
+    color: red;
+    font-size: 40px;
+}
+
+.danPhoto {
+    width: 300px;
+    margin: 2%;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    transform: translateY(-30%);
+    z-index: 2;
+    opacity: 0.8;
     border-radius: 200px;
-    box-shadow: 5px 5px 5px silver; 
+    box-shadow: 10px 10px 10px silver; 
 }
 
 .aboutMe {
-    color: black;
-    font: 30px;
+    color: silver;
+    font-size: 16px;
     line-height: 25px;
-    margin: 40% 25% 15% 25%;
-    padding: 3%;
     position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+    left: 3%;
     width: 50%;
-    text-align: center;
+    text-align: left;
 }
 
-@media screen and  (max-width: 600px) {
-    .danPhoto {
-        height: 30%;
-        width: auto;
-        margin-top: 150px;
+.projectsContainer {
+    padding: 30px;
+    background-color: #eef2f5;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.9;
+}
+
+.projectHeader {
+    color: red;
+    position: absolute;
+    margin: 12% 3%;
+}
+
+.projects {
+    flex: 1;
+    position: relative;
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    margin: 23% 3%;
+    padding: 2px;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 3px 3px 10px silver; 
+    overflow: hidden;
+   
+}
+
+.image {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    color: white;
+    font-size: 18px;
+    background-color: #1b262c;
+    opacity: 0.8;
+    height: 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.image:hover + .description {
+    height: 130px;
+    z-index: 1;
+    transition: height ease 1s;
+}
+
+
+
+
+
+
+
+/* @media screen and  (max-width: 600px) {
+    .danPhoto img {
+        width: 200px;
     }
 
     .homeHeader {
-        font-size: 18px;
-        padding: 180px 50% 10% 3%;        
+        font-size: 14px;    
     }
-
-    .aboutMe {
-        margin: 90% 20% 10% 0;
-        text-align: left;
+    .redName {
+        font-size: 30px;    
     }
-}
+} */
