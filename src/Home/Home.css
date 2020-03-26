@@ -8,14 +8,21 @@
 
 
 .homeHeader {
-    color: silver;
+    color: grey;
     text-align: left;  
     line-height: 50px;  
-    margin: 3%;
-    width: 50%;
+    width: 100%;
     position: absolute;
-    top: 30%;
+    top: 36%;
     transform: translateY(-30%);
+    background-image: linear-gradient(to left, rgba(59, 58, 58, 0.253), rgba(255, 255, 255, 0.918));
+    padding-left: 3%;
+    padding-right: 20%;
+    box-shadow: 1px 6px 10px silver; 
+}
+
+.homeHeaderText {
+    width: 55%;
 }
 
 .redName {
@@ -31,31 +38,31 @@
     right: 2%;
     transform: translateY(-30%);
     z-index: 2;
-    opacity: 0.8;
+    opacity: 0.9;
     border-radius: 200px;
     box-shadow: 10px 10px 10px silver; 
 }
 
 .aboutMe {
-    color: silver;
+    color: grey;
     font-size: 16px;
     line-height: 25px;
     position: absolute;
-    top: 70%;
-    transform: translateY(-70%);
+    top: 80%;
+    transform: translateY(-80%);
     left: 3%;
-    width: 50%;
-    text-align: left;
+    width: 55%;
+    text-align: justify;
 }
 
 .projectsContainer {
     padding: 30px;
-    background-color: #eef2f5;
     padding: 0;
     height: 100vh;
     display: flex;
     flex-direction: row;
     opacity: 0.9;
+    background-image: linear-gradient(to top, rgba(59, 58, 58, 0.253), rgba(255, 255, 255, 0.918));
 }
 
 .projectHeader {
@@ -67,14 +74,14 @@
 .projects {
     flex: 1;
     position: relative;
-    width: 200px;
-    height: 350px;
+    width: 240px;
+    height: 320px;
     background-color: black;
-    margin: 23% 3%;
+    margin: 23% 1% 0 1%;
     padding: 2px;
     font-size: 25px;
     text-align: center;
-    box-shadow: 3px 3px 10px silver; 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.527); 
     overflow: hidden;
    
 }

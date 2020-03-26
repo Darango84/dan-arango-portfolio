@@ -4,6 +4,7 @@ import './Home.css';
 import tinpet from '../Images/tinpet.jpg';
 import drumKit from '../Images/drumKit.jpg';
 import memory1 from '../Images/memory1.jpg';
+import Kodflix1 from '../Images/Kodflix1.jpg';
 
 
 export default function Home() {
@@ -11,8 +12,10 @@ export default function Home() {
         <div>
             <div className="homeContainer">
                 <div className="homeHeader">
-                    <h1>Hi, I'm <span className="redName">Dan</span>. 
-                    <br/>I design and build web applications and user interfaces</h1>
+                    <div className="homeHeaderText">
+                        <h1>Hi, I'm <span className="redName">Dan</span>. 
+                        <br/>I design and build web applications and user interfaces</h1>
+                    </div>
                 </div>
                 
                 <img className="danPhoto" src={Danphoto} alt="Dan Arango at work"/>
@@ -33,7 +36,7 @@ export default function Home() {
                         <img className='image' src={tinpet} alt='tinpet project'></img>
                         <div className='description'>
                             <h3>tinpet</h3>
-                            <p>A responsive app for pet´s looking for love</p>
+                            <p>An app for pets looking for love</p>
                         </div>
                     </div>
                     <div className='projects'>
@@ -48,6 +51,13 @@ export default function Home() {
                         <div className='description'>
                             <h3>memory</h3>
                             <p>An old school-looking memory game for desktop and mobile</p>
+                        </div>
+                    </div>
+                    <div className='projects'>
+                        <img className='image' src={Kodflix1} alt='Kodflix project'></img>
+                        <div className='description'>
+                            <h3>Kodflix</h3>
+                            <p>Watch Kodflix movies & TV shows online</p>
                         </div>
                     </div>
                 </div>

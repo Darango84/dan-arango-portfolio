@@ -28,7 +28,7 @@
   }
 
   .menuHeader:hover {
-    color: red;
+    color: white;
   }
   
   .menuItem {
@@ -39,7 +39,7 @@
     
   }
 
-  .menuItem:hover {
+  .menuItem:hover svg{
     color: white;
   }
 

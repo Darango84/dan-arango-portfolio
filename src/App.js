@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from './Menu/Menu';
 import Home from './Home/Home';
+import Projects from './Projects/Projects';
 // import About from './About/About';
 import Contact from './Contact/Contact';
 import './App.css';
@@ -22,14 +23,12 @@ function App() {
         <div className="App">
           
             <Menu />
-            
             <Route path="/" exact component={Home} />
-            
             <Route path="/Contact" exact component={Contact} />
+            <Route path="/Projects" exact component={Projects} />
             
 
           <div className="footer">
-
             <div className="footerIcons">
               <a href="mailto:daniel.arango@gmx.com" subject="Hi Dan"><MdMail /></a>
               <a href="https://www.linkedin.com/in/daniel-arango-68503427/" target="blank"><FaLinkedin /></a>
