@@ -41,6 +41,7 @@
 
   .menuItem:hover svg{
     color: white;
+    font-size: 28px;
   }
 
   .menuItem:visited {

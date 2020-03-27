@@ -1,5 +1,24 @@
-.aboutMe {
-    color: silver;
+
+.aboutTitle {
+    margin: 20% 0 0 3%;
+    color: rd
+}
+
+.aboutMeOne {
+    color: grey;
     font: 18px;
-    margin-top: 20%;
+    line-height: 25px;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 55%;
+    text-align: justify;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 0;
 }

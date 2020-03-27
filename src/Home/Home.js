@@ -21,7 +21,7 @@ export default function Home() {
                 <img className="danPhoto" src={Danphoto} alt="Dan Arango at work"/>
                 
                 <div className="aboutMe">
-                    <p>I am a Senior Digital Consultant with strong Agile and Scrum Project Management
+                    <p>I am a Senior Digital Consultant with strong Agile/Scrum Project Management
                         and stakeholder management skills, data mining, reporting and analysis, application/website design and development. 
                         I have a broad understanding of the banking industry and strong interpersonal skills, 
                         having worked for leading global banks in Retail Banking, IT and Risk Management for the 

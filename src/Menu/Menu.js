@@ -11,8 +11,9 @@ export default function Menu() {
             <ul className="menu">
                 <Link to='./' className="menuHeader"><li>DA</li></Link>
                 <Link to='./Contact' className="menuItem"><li><MdContactMail /></li></Link>
-                <li className="menuItem"><FaProjectDiagram /></li>
-                <li className="menuItem"><FaInfoCircle /></li>   
+                <Link to='./Projects' className="menuItem"><li><FaProjectDiagram /></li></Link>
+                <Link to='./About' className="menuItem"><li><FaInfoCircle /></li></Link>
+                
           </ul>
         </div>
     )
